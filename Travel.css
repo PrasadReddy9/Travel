@@ -1,0 +1,395 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* banner css */
+
+.banner
+{
+    max-width: 100%;
+    height: 100vh;
+    background-color: gray;
+    background-image: url('./images/images/banner.jpg');
+    display: flex;
+    flex-direction: column;
+
+}
+.header
+{
+    max-width: 100%;
+    height: 70px;
+    padding: 0px 15%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+     
+}
+.logo
+{
+    max-width: 10%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bars{
+    padding: 20px 0px;
+    cursor: pointer;
+   font-size: 20px;
+   display: none;
+   color: white;
+   position: absolute;
+   right: 15px;
+}
+.logo-text
+{
+    max-width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.nav-link:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.nav-link
+{
+    padding: 5px 10px;
+    transition:.3s;
+}
+
+.nav
+{
+    max-width: 45%;
+    height: 70px;
+    /* background-color: blue; */
+}
+.nav-links
+{
+    max-width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-details
+{
+    max-width: 100%;
+    padding: 25px 15%;
+    /* background-color:white ; */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.badge
+{
+    width: max-content;
+    padding: 10px 20px;
+    background-color: lightgrey;
+    font-family: 'poppins';
+    font-size: 20px;
+    border-radius: 10px;
+}
+.banner-head
+{
+    font-size: 80px;
+    font-family: 'poppins';
+    color: white;
+    max-width: max-content;
+}
+.btn
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid;
+    cursor: pointer;
+
+}
+.book
+{
+    max-width: 100%;
+    padding: 20px 10px;
+    background-color:rgba(255, 255,255, .5);
+    display: flex;
+    column-gap: 20px;
+}
+.inp
+{
+    max-width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    row-gap: 5px;
+    justify-content: flex-end;
+}
+.input
+{
+height: 40px;
+}
+.book-btn
+{
+    padding: 10px  30px;
+}
+/* about css */
+
+.about
+{
+    max-width: 100%;
+    padding: 50px 15%;
+    background-color:#bfdbf4;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 5px;
+}
+.heigh
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* rooms css */
+
+.rooms
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color:#f9f9f9;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+}
+.rooms-area
+{
+    max-width: 100%;
+    padding: 20px 0px;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.section-title
+{
+    font-size: 30px;
+}
+.room
+{
+    max-width: 30%;
+    background-color: white;
+
+}
+.room-img
+{
+    height: 220px;
+    max-width: 100%;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.room-image
+{
+    width: 100%;
+}
+.room-details
+{
+    /* background-color: green; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+/* subscribe */
+
+.subscribe
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color: red;
+}
+.sub-text
+{
+    width: 30%;
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+    align-items: center;
+}
+.subscribe 
+{
+    width: 100%;
+    padding: 50px 15%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-text 
+{
+    width: 30%;
+    padding: 20px;
+    /* background-color: skyblue; */
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.logo2 
+{
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.sub-desc
+{
+    font-size: 15px;
+}
+
+.sub-area 
+{
+    width: 35%;
+    padding: 20px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'poppins';
+    row-gap: 20px;
+}
+
+.sub-form
+{
+    display: flex;
+}
+
+.sub-inp
+{
+    width: 70%;
+    height: 60px;
+}
+
+/* food section css  */
+
+.food 
+{
+    width: 100%;
+    height: 80vh;
+    padding: 50px 15%;
+    background-color: #ffffff;
+    background-image: url('images/images/restaurant.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.food-detail
+{
+    width: 65%;
+    padding:50px;
+    /* background-color: red; */
+    font-family: 'poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+.section-header 
+{
+    font-size: 45px;
+}
+.premium 
+{
+    width: 100%;
+    padding: 50px 15%;
+    font-family: 'poppins';
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prooms-area
+{
+    width: 100%;
+    height: 1000px;
+    /* background-color: green; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proom-img 
+{
+    width: 30%;
+    height: 1000px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+
+.proom-boxes
+{
+    width: 65%;
+    height: 1000px;
+    /* background-color: skyblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proom-image
+{
+    width: 100%;
+}
+
+.proom-box
+{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+/* gallery css  */
+
+.gallery
+{
+    width: 100%;
+    padding: 50px 15%;
+    background-color: black;
+}
+
+.gall-img
+{
+    width: 33%;
+    cursor: pointer;
+    transition: .3s;
+    opacity: .5 !important;
+}
+
+.gall-img:hover 
+{
+    opacity: 1 !important;
+}
+
